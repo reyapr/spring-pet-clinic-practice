@@ -8,17 +8,17 @@ public class Pet {
     private Owner owner;
     private LocalDate birthDate;
 
-    public Pet(String petType, Owner owner, LocalDate birthDate) {
+    public Pet(PetType  petType, Owner owner, LocalDate birthDate) {
         this.petType = petType;
         this.owner = owner;
         this.birthDate = birthDate;
     }
 
-    public String getPetType() {
+    public PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(String petType) {
+    public void setPetType(PetType petType) {
         this.petType = petType;
     }
 
